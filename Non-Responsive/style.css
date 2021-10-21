@@ -1,0 +1,58 @@
+@import url(/standards.css);
+
+body {
+    background-color: var(--white-color);
+    font-family: var(--normal-font);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+/*///////////////////////*/
+/*// Navigation          */
+/*///////////////////////*/
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.header {
+    background: var(--secondary-color);
+    overflow: hidden;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+    height: 2rem;
+}
+.nav ul {
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: end;
+}
+.name-logo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: start;
+}
+
+.name-logo a {
+    font-family: var(--tittle-font);
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/*///////////////////////*/
+/*// Headers          */
+/*///////////////////////*/

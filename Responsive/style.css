@@ -1,0 +1,72 @@
+@import url(/standards.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--normal-font);
+}
+
+/*///////////////////////*/
+/*// Navigation          */
+/*///////////////////////*/
+
+nav {
+    background: var(--secondary-color);
+    padding: 5px 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /*Navragen*/
+    /*display: -webkit-flex;*/
+    /*display: -moz-flex;*/
+    /*display: -ms-flex;*/
+    /*display: -o-flex;*/
+
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li.items {
+    width: auto;
+    margin: 0 16px;
+    text-align: center;
+}
+
+nav ul li.name-logo {
+    flex: 1;
+    color: var(--white-color);
+    font-family: var(--tittle-font);
+    font-size: 23px;
+    cursor: default;
+    user-select: none;
+}
+
+
+
+
+/*///////////////////////*/
+/*// Media               */
+/*///////////////////////*/
+
+@media all and (max-width: 900px) {
+    nav {
+        padding: 5px;
+    }
+    
+}
